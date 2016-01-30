@@ -1,4 +1,4 @@
-# [DenyLocationConsent](http://repo.xposed.info/module/org.brainkiller.xposed.denylocationconsent)
+# ![Deny Location Consent](https://github.com/mtgrosser/DenyLocationConsent/blob/master/res/drawable-mdpi/ic_launcher.png?raw=true)[DenyLocationConsent](http://repo.xposed.info/module/org.brainkiller.xposed.denylocationconsent)
 
 ![Improve location accuracy](https://raw.githubusercontent.com/mtgrosser/DenyLocationConsent/master/gfx/location_accuracy.png)
 
