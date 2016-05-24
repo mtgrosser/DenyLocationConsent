@@ -1,0 +1,5 @@
+./gradlew assembleRelease
+
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my.keystore path/t/package.apk alias
+
+zipalign -v 4 path/to/signed.apk release/release-versionnumber.apk
