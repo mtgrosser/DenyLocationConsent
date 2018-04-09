@@ -12,7 +12,7 @@ Use the following versions depending on your version of Play Services:
 | ---------------------- | --------------------------- |
 | 8.x                    | 0.3                         |
 | 9.x                    | 0.4                         |
-| 12.x                   | 0.5                         |
+| >= 12.5.21             | 0.5                         |
 
 Tested on Lollipop and CM12.1.
 
