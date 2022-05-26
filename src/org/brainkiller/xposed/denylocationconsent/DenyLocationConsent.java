@@ -16,9 +16,9 @@ public class DenyLocationConsent implements IXposedHookLoadPackage {
     public void handleLoadPackage(LoadPackageParam lpparam) throws Throwable {
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             if (lpparam.packageName.equals("com.google.android.gms")) {
-                final Class<?> NetworkLocationProvider = XposedHelpers.findClass("com.google.android.location.network.NetworkLocationProvider", lpparam.classLoader);
+                final Class<?> NetworkLocationProvider = XposedHelpers.findClass("com.google.android.location.network.NetworkLocationService", lpparam.classLoader);
 
-                XposedHelpers.findAndHookMethod("com.google.android.location.network.NetworkLocationProvider", lpparam.classLoader, "a", new XC_MethodReplacement() {
+                XposedHelpers.findAndHookMethod("com.google.android.location.network.NetworkLocationService", lpparam.classLoader, "a", new XC_MethodReplacement() {
                     @Override
                     protected Object replaceHookedMethod(MethodHookParam param) throws Throwable {
                         Context context = (Context) XposedHelpers.getObjectField(param.thisObject, "a");
