@@ -13,8 +13,9 @@ Use the following versions depending on your version of Play Services:
 | 8.x                    | 0.3                         |
 | 9.x                    | 0.4                         |
 | >= 12.5.21             | 0.5                         |
+| >= 22.15.x             | 0.6                         |
 
-Tested on Lollipop and CM12.1.
+Tested on Android 11, Lineage 18.
 
 #### Licensing
 Copyright &copy; 2016-2018 Matthias Grosser. Licensed under the MIT license.
